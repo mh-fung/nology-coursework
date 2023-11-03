@@ -1,8 +1,10 @@
 /* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Roboto&display=swap');
 
+$font-body: "Roboto", "sans-serif";
+$font-title: "Quicksand", sursive;
 
 /*colors */
-
 $color-background: rgb(254, 253, 248);
 $color-primary: rgb(58, 66, 99);
 $color-bottom: rgb(255, 251, 224);

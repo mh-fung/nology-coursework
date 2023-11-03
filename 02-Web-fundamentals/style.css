@@ -1,2 +1,12 @@
 /* fonts */
-/*colors *//*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&family=Roboto&display=swap");
+/*colors */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */

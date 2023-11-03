@@ -1,3 +1,13 @@
 @use "./variables" as *;
 @use "./components";
 @use "./layouts";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a:link, 
+a:visited {
+    text-decoration: none;
+}
