@@ -45,13 +45,15 @@ header {
     background-color: $color-background;
     display: flex;
     justify-content: center;
+    color: $color-secondary;
+    font-family: $font-title;
 
 }
 
 main {
     background-color: $color-background;
 
-    .introduction {
+    .intro {
         height: 400px;
         background-color: $color-background;
         display: flex;
@@ -73,6 +75,7 @@ main {
         .description {
             color: $color-primary;
             text-align: center;
+            font-weight: 100;
         }
 
     }
@@ -92,9 +95,31 @@ main {
         border-color: $color-primary;
         border-radius: 10px;
     }
+
+    .details {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background-color: $color-background;
+
+        .header {
+            font-family: $font-body;
+            font-size: 30px;
+            color: $color-primary;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        div {
+            display: flex;
+            justify-content: space-between;
+        }
+
+    }
 }
-.information {
-    background-color: $color-background;
+.info {
+    background-color: $color-bottom;
     display: flex;
     flex-direction: column;
     align-items: center;

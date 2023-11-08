@@ -40,12 +40,14 @@ header {
   background-color: rgb(254, 253, 248);
   display: flex;
   justify-content: center;
+  color: rgb(84, 183, 236);
+  font-family: "Quicksand", cursive;
 }
 
 main {
   background-color: rgb(254, 253, 248);
 }
-main .introduction {
+main .intro {
   height: 400px;
   background-color: rgb(254, 253, 248);
   display: flex;
@@ -54,17 +56,18 @@ main .introduction {
   align-items: center;
   padding: 10px;
 }
-main .introduction .header {
+main .intro .header {
   color: rgb(58, 66, 99);
   text-align: center;
 }
-main .introduction .sub-heading {
+main .intro .sub-heading {
   color: rgb(84, 183, 236);
   text-align: center;
 }
-main .introduction .description {
+main .intro .description {
   color: rgb(58, 66, 99);
   text-align: center;
+  font-weight: 100;
 }
 main .button {
   background-color: rgb(58, 66, 99);
@@ -81,14 +84,32 @@ main .button {
   border-color: rgb(58, 66, 99);
   border-radius: 10px;
 }
-
-.information {
+main .details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
   background-color: rgb(254, 253, 248);
+}
+main .details .header {
+  font-family: "Roboto", "sans-serif";
+  font-size: 30px;
+  color: rgb(58, 66, 99);
+  margin: 10px;
+  padding: 10px;
+}
+main .details div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info {
+  background-color: rgb(255, 251, 224);
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.information a {
+.info a {
   font-family: "Roboto", "sans-serif";
   font-size: 30px;
   color: rgb(58, 66, 99);
