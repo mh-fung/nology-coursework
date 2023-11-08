@@ -27,6 +27,7 @@ a:visited {
     }
 
     .button {
+        margin: 10px;
         font-family: $font-body;
         font-size: 25px;
         font-weight: 700;
@@ -37,5 +38,72 @@ a:visited {
         border-style: solid;
         border-color: $color-primary;
         border-radius: 10px;
+    }
+}
+
+header {
+    background-color: $color-background;
+    display: flex;
+    justify-content: center;
+
+}
+
+main {
+    background-color: $color-background;
+
+    .introduction {
+        height: 400px;
+        background-color: $color-background;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+
+        .header {
+            color: $color-primary;
+            text-align: center;
+        }
+
+        .sub-heading    {
+            color: $color-secondary;
+            text-align: center;
+        }
+
+        .description {
+            color: $color-primary;
+            text-align: center;
+        }
+
+    }
+    
+    .button {
+        background-color: $color-primary;
+        color: $color-white;
+        margin: 10px;
+        font-family: $font-body;
+        font-size: 25px;
+        font-weight: 700;
+        width: 200px;
+        padding: 20px 20px;
+        display: block;
+        text-align: center;
+        border-style: solid;
+        border-color: $color-primary;
+        border-radius: 10px;
+    }
+}
+.information {
+    background-color: $color-background;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    a {
+        font-family: $font-body;
+        font-size: 30px;
+        color: $color-primary;
+        height: 60px;
+        padding: 10px;
     }
 }

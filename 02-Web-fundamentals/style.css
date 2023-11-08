@@ -23,6 +23,7 @@ a:visited {
   padding: 5px;
 }
 .navigation .button {
+  margin: 10px;
   font-family: "Roboto", "sans-serif";
   font-size: 25px;
   font-weight: 700;
@@ -33,4 +34,64 @@ a:visited {
   border-style: solid;
   border-color: rgb(58, 66, 99);
   border-radius: 10px;
+}
+
+header {
+  background-color: rgb(254, 253, 248);
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  background-color: rgb(254, 253, 248);
+}
+main .introduction {
+  height: 400px;
+  background-color: rgb(254, 253, 248);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+main .introduction .header {
+  color: rgb(58, 66, 99);
+  text-align: center;
+}
+main .introduction .sub-heading {
+  color: rgb(84, 183, 236);
+  text-align: center;
+}
+main .introduction .description {
+  color: rgb(58, 66, 99);
+  text-align: center;
+}
+main .button {
+  background-color: rgb(58, 66, 99);
+  color: #ffffff;
+  margin: 10px;
+  font-family: "Roboto", "sans-serif";
+  font-size: 25px;
+  font-weight: 700;
+  width: 200px;
+  padding: 20px 20px;
+  display: block;
+  text-align: center;
+  border-style: solid;
+  border-color: rgb(58, 66, 99);
+  border-radius: 10px;
+}
+
+.information {
+  background-color: rgb(254, 253, 248);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.information a {
+  font-family: "Roboto", "sans-serif";
+  font-size: 30px;
+  color: rgb(58, 66, 99);
+  height: 60px;
+  padding: 10px;
 }/*# sourceMappingURL=style.css.map */
