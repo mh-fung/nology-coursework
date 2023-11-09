@@ -13,17 +13,17 @@ a:visited {
   height: 10vh;
   background-color: rgb(254, 253, 248);
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 .navigation .logo {
   font-family: "Roboto", "sans-serif";
   font-size: 60px;
   font-weight: 900;
-  padding: 5px;
+  padding: 20px;
 }
 .navigation .button {
-  margin: 10px;
+  margin: 20px;
   font-family: "Roboto", "sans-serif";
   font-size: 25px;
   font-weight: 700;
@@ -38,14 +38,20 @@ a:visited {
 
 header {
   background-color: rgb(254, 253, 248);
-  display: flex;
-  justify-content: center;
+  padding-top: 10%;
+}
+header h1 {
   color: rgb(84, 183, 236);
   font-family: "Quicksand", cursive;
+  text-align: center;
 }
 
 main {
   background-color: rgb(254, 253, 248);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 main .intro {
   height: 400px;
@@ -90,6 +96,7 @@ main .details {
   justify-content: space-between;
   align-items: center;
   background-color: rgb(254, 253, 248);
+  margin-bottom: 10%;
 }
 main .details .header {
   font-family: "Roboto", "sans-serif";
@@ -99,12 +106,21 @@ main .details .header {
   padding: 10px;
 }
 main .details div {
+  margin: 10px;
+  padding: 10px;
   display: flex;
   justify-content: space-between;
+}
+main .details p {
+  color: rgb(58, 66, 99);
+  font-family: "Roboto", "sans-serif";
+  font-size: 20px;
+  text-align: left;
 }
 
 .info {
   background-color: rgb(255, 251, 224);
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
